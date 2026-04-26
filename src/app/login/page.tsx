@@ -29,6 +29,9 @@ export default function LoginPage() {
             Sign in
           </button>
         </form>
+        <a href="/forgot-password" className="login-forgot" data-testid="forgot-password-link">
+          Forgot password?
+        </a>
       </div>
     </div>
   );
